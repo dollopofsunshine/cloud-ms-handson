@@ -1,8 +1,8 @@
-FROM python:latest
+FROM ubuntu:18.04 
 
-WORKDIR /usr
+WORKDIR /root
+COPY . .
 
-#to COPY the remote file at working directory in container
-COPY rename.py .
-
-CMD [ "python", "./test.py"]
+CMD [ "ls", "source"]
+CMD [ 'for file in `ls source/*.txt`; do; mv "$file" "$file.bak"; done;']
+CMD [ "ls", "source"]

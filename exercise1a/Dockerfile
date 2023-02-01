@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update -y \
-  && apt-get install -y git gcc make golang-1.10
+  && apt-get install -y git gcc make golang-1.10  
 
 ENV GOROOT /usr/lib/go-1.10
 ENV PATH $GOROOT/bin:$PATH
