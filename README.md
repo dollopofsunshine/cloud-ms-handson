@@ -1,4 +1,4 @@
-# Cloud and Microservices - Hands-on
+# Cloud and Microservices - Hands-on Exercises
 
 1. We have a golang container that serves a webpage. It is built using the attached dockerfile. Security audit has revealed that the container contains source code for the application which is insecure. How will you modify the dockerfile to ensure that the final container contains only the binaries? Suggest 2 ways
 
