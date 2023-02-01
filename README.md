@@ -14,6 +14,6 @@
 
  5. This container runs as the root user. Reviewer find that your set-up is not following the principle of least privileges. How will you modify the container to run it with a lower privileged user named "customer"?
 
-     *Hint: Add a new user to the container using adduser in Dockerfile and set the user as default user"*
+     *Hint: Add a new user to the container using adduser in Dockerfile and set the user as default user*
 
  6. You find that a new image is added to your container registry. You do not have the Dockerfile used to build the image. How will you verify the commands used to build this image without executing it? How will you find the start-up command for this container?
