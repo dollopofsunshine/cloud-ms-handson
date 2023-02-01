@@ -20,3 +20,5 @@
 
  6. You find that a new image is added to your container registry. You do not have the Dockerfile used to build the image. How will you verify the commands used to build this image without executing it? How will you find the start-up command for this container?
 
+     *Command to pull the Image: docker pull dollopofsunshine/handsonexerciseamd64 --platform=linux/amd64*
+
