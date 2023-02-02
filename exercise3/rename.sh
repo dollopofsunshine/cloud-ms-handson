@@ -1,5 +1,9 @@
 #!/bin/sh
-for file in `ls source`
+ls source
+for file in source/*.txt
 do 
-  mv source/$file source/$file.bak
+ #echo $file  
+ mv $file $file.bak
 done
+echo "after rename"
+ls source
