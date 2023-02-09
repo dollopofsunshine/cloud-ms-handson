@@ -1,6 +1,6 @@
 FROM ubuntu:18.04 
 
-WORKDIR /root
+WORKDIR /bfg
 COPY . .
 
-CMD [ "/bin/bash", "-c", "./rename.sh" ] 
+CMD [ "/bin/bash", "-c", "./rename_cp.sh" ] 
